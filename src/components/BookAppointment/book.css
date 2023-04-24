@@ -26,7 +26,7 @@
   height: 46px;
 }
 .email-input,
-.name {
+.name1 {
   font-family: var(--font-inter);
   left: 489px;
 }
@@ -35,7 +35,7 @@
   font-size: 20px;
   background-color: var(--color-white);
   position: absolute;
-  top: 203px;
+  top: 201px;
   border-radius: 10px;
   box-sizing: border-box;
   width: 381px;
@@ -46,14 +46,38 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
-.name {
-  top: 97px;
+.error {
+  color: red;
+  font-size: 12px;
+  position: absolute;
+  top: 236px;
+  left: 490px;
+  display: flex;
+  flex-direction: row;
+  padding: 16px 11px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.name1 {
+  top: 130px;
   width: 188px;
   padding: 16px 11px;
 }
+.error1 {
+  color: red;
+  font-size: 12px;
+  position: absolute;
+  top: 165px;
+  left: 490px;
+  display: flex;
+  flex-direction: row;
+  padding: 16px 11px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
 .date,
-.name,
-.salon-name,
+.name1,
+.salon-names,
 .service {
   border: 1px solid Black;
   font-size: 20px;
@@ -74,19 +98,55 @@
   width: 381px;
   padding: 16px 11px;
 }
+.error3 {
+  color: red;
+  font-size: 12px;
+  position: absolute;
+  top: 377px;
+  left: 490px;
+  display: flex;
+  flex-direction: row;
+  padding: 16px 11px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
 .date,
-.salon-name {
+.salon-names {
   width: 188px;
   padding: 16px 11px;
 }
-.salon-name {
+.salon-names {
   font-family: var(--font-inter);
   top: 272px;
   left: 489px;
 }
+.error4 {
+  color: red;
+  font-size: 12px;
+  position: absolute;
+  top: 307px;
+  left: 490px;
+  display: flex;
+  flex-direction: row;
+  padding: 16px 11px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
 .date {
   top: 272px;
   left: 682px;
+}
+.error5 {
+  color: red;
+  font-size: 12px;
+  position: absolute;
+  top: 307px;
+  left: 682px;
+  display: flex;
+  flex-direction: row;
+  padding: 16px 11px;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 .book1,
 .date,
@@ -98,12 +158,24 @@
   font-size: 20px;
   background-color: var(--color-white);
   position: absolute;
-  top: 137px;
+  top: 130px;
   left: 682px;
   border-radius: 10px;
   box-sizing: border-box;
   width: 188px;
   height: 48px;
+  display: flex;
+  flex-direction: row;
+  padding: 16px 11px;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.error2 {
+  color: red;
+  font-size: 12px;
+  position: absolute;
+  top: 165px;
+  left: 682px;
   display: flex;
   flex-direction: row;
   padding: 16px 11px;
@@ -152,16 +224,16 @@
 }
 .booking2 {
   position: absolute;
-  top: 19px;
-  left: 215px;
+  top: 90px;
+  left: 220px;
   width: 917px;
-  height: 586px;
+  height: 700px;
 }
 .desktop-2 {
   position: relative;
   background-color: var(--color-white);
   width: 100%;
-  height: 629px;
+  height: 700px;
   overflow: hidden;
   text-align: left;
   font-size: 30px;
